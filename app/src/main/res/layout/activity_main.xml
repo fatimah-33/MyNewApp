@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.almarri.omar.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <Button
+            android:id="@+id/locationButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="الموقع"
+            android:onClick="locActivity"
+            android:textColor="@color/blackTextColor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/infoButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="معلومات عامة"
+            android:onClick="infoActivity"
+            android:background="@color/colorAccent"
+            android:textColor="@color/blackTextColor"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        >
+
+    <Button
+        android:id="@+id/picButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:onClick="pictureActivity"
+        android:text="معرض الصور"
+        android:background="@color/colorAccent"
+        android:textColor="@color/blackTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"/>
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/growButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="التطور والازدهار"
+        android:onClick="growActivity"
+        android:background="@color/colorAccent"
+        android:textColor="@color/blackTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="عدد سكان محافظة بقيق ٢٠١٠ نسمة"
+            android:layout_weight="1"
+            android:textSize="30sp" />
+        <ImageView
+            android:paddingLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icno_grupo2"
+            android:layout_weight=".5"
+
+            />
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="سبب تسمية يعود إلى وجود منطقة تسمى بقة إلى الشمال من مدينة بقيق الحالية "
+                android:textSize="30sp"/>
+
+            <ImageView
+                android:paddingLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/addressbook_icon"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
